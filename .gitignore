@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large / regenerable data (keep small samples & fonts only)
+data/processed/synthetic/
+data/processed/manifest.csv
+data/processed/manifest_synthetic.csv
+data/processed/segmented_lines_demo/
+data/raw/dataset_farsi/
+data/raw/iam/
+data/raw/persian_cities/
+
+# Training caches (regenerable via src/cache_data.py)
+models/cached_train_data.npz
+models/cached_val_texts.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

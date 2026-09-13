@@ -1,0 +1,8 @@
+numpy
+opencv-python
+Pillow
+arabic-reshaper
+python-bidi
+tensorflow
+scikit-learn
+matplotlib
